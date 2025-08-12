@@ -1,0 +1,81 @@
+### IDE / OS ###
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+### Project Specific ###
+allure-results/
+
+### Python Bytecode ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+### C Extensions ###
+*.so
+
+### Distribution / Packaging ###
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+MANIFEST
+
+### PyInstaller ###
+*.spec
+*.manifest
+
+### Logs / Reports ###
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Unit Test / Coverage ###
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+coverage.lcov
+*.cover
+*.py,cover
+.pytest_cache/
+.hypothesis/
+cover/
+
+### Database ###
+db.sqlite3
+db.sqlite3-journal
+
+### Documentation Builds ###
+docs/_build/
+site/
+
+### Virtual Environments ###
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Jupyter Notebook ###
+.ipynb_checkpoints
+
+### MyPy / Type Checkers ###
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+### Cython ###
+cython_debug/

@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: list[int], target: int) -> list[int]:
+    def two_sum_1(self, nums: list[int], target: int) -> list[int]:
         # use two for loop
         # time complexity: O(n^2)
         # space complexity: O(1)
@@ -10,7 +10,7 @@ class Solution:
                     return [i, j]
         return []
 
-    def two_sum(self, nums: list[int], target: int) -> list[int]:
+    def two_sum_2(self, nums: list[int], target: int) -> list[int]:
         # use hash table
         # time complexity: O(n)
         # space complexity: O(n)
