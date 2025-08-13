@@ -4,8 +4,13 @@ Algorithm practice in Python.
 
 ## How to Run Tests
 
-You can use the `make` command to run all tests:
-
 ```shell
-make test
+uv run pytest
+```
+
+## How to code new leetcode problem
+
+```bash
+# python scripts/new_problem.py <problem_id> <problem_name>
+uv run scripts/new_problem.py 2 add_two_numbers
 ```

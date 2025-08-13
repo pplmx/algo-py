@@ -1,6 +1,6 @@
 import pytest
 
-from algo_py.leetcode.lc_00001_two_num import Solution
+from algo.leetcode.p00001_two_sum import Solution
 
 
 class TestClass:
@@ -19,7 +19,7 @@ class TestClass:
     )
     def test_two_sum_brute_force(self, nums, target, expected):
         solution = Solution()
-        assert solution.twoSum(nums, target) == expected
+        assert solution.two_sum_1(nums, target) == expected
 
     @pytest.mark.parametrize(
         ("nums", "target", "expected"),
@@ -36,4 +36,4 @@ class TestClass:
     )
     def test_two_sum_hash_table(self, nums, target, expected):
         solution = Solution()
-        assert solution.two_sum(nums, target) == expected
+        assert solution.two_sum_2(nums, target) == expected

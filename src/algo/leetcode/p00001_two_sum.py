@@ -14,10 +14,10 @@ class Solution:
         # use hash table
         # time complexity: O(n)
         # space complexity: O(n)
-        temp = {}
+        d = {}
         for idx, n in enumerate(nums):
             minus = target - n
-            if minus in temp:
-                return [temp[minus], idx]
-            temp[n] = idx
+            if minus in d:
+                return [d[minus], idx]
+            d[n] = idx
         return []
