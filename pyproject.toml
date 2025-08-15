@@ -15,9 +15,6 @@ dependencies = [
     "pytest>=8.4.1",
 ]
 
-[tool.uv.build-backend]
-module-name = "algo"
-
 [tool.pytest.ini_options]
 consider_namespace_packages=true # Enable this to allow using the same filename in different test directories without needing __init__.py in each one
 pythonpath = ["src", "."]
